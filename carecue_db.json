@@ -1,0 +1,547 @@
+{
+    "patients": {
+        "user_alex": {
+            "id": "user_alex",
+            "name": "Alex",
+            "pin": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+            "profile": {
+                "name": "Alex",
+                "dob": "1998-05-12",
+                "bloodType": "O+",
+                "height": "175cm",
+                "weight": "70kg",
+                "allergies": "None",
+                "conditions": "Mild Asthma",
+                "doctor": "Dr. Smith",
+                "insurance": "BlueCross",
+                "emergencyContact": "Sarah (555-0100)",
+                "reason": "General Tracking",
+                "needsCaregiver": "No",
+                "streak": 5
+            },
+            "appointments": [],
+            "ring_patient": false,
+            "medicines": [
+                {
+                    "id": "m1",
+                    "name": "Albuterol",
+                    "dosage": "2 puffs",
+                    "time": "09:00",
+                    "notes": "As needed",
+                    "isActive": true
+                }
+            ],
+            "inventory": [
+                {
+                    "id": "i1",
+                    "medName": "Albuterol",
+                    "quantity": 30,
+                    "expiryDate": "2026-03-01"
+                }
+            ],
+            "history": [
+                {
+                    "userId": "user_alex",
+                    "medicineId": "m1",
+                    "medicineName": "Albuterol",
+                    "status": "taken",
+                    "timestamp": "2026-02-11 09:05"
+                }
+            ],
+            "ring_active_now": false,
+            "pending_sms_alert": ""
+        },
+        "user_jenni": {
+            "id": "user_jenni",
+            "name": "Jenni",
+            "pin": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+            "profile": {
+                "name": "Jenni",
+                "dob": "1985-11-20",
+                "bloodType": "A-",
+                "height": "160cm",
+                "weight": "65kg",
+                "allergies": "Penicillin",
+                "conditions": "Type 2 Diabetes",
+                "doctor": "Dr. House",
+                "insurance": "Aetna",
+                "emergencyContact": "Mark (555-0200)",
+                "reason": "Diabetes Management",
+                "needsCaregiver": "Yes",
+                "streak": 0
+            },
+            "appointments": [
+                {
+                    "id": "a1",
+                    "doctor": "Dr. House",
+                    "date": "2026-03-15",
+                    "time": "10:30",
+                    "reason": "Quarterly Checkup"
+                }
+            ],
+            "medicines": [
+                {
+                    "id": "m2",
+                    "name": "Metformin",
+                    "dosage": "500mg",
+                    "time": "08:00",
+                    "notes": "With food",
+                    "isActive": true
+                },
+                {
+                    "userId": "user_jenni",
+                    "name": "RT",
+                    "dosage": "1",
+                    "time": "21:38",
+                    "frequency": "Daily",
+                    "notes": "!",
+                    "id": "567b99f3-a1b6-4a52-bba8-6a781adbd52f",
+                    "isActive": true
+                }
+            ],
+            "inventory": [
+                {
+                    "userId": "user_jenni",
+                    "medName": "RT",
+                    "quantity": 12,
+                    "expiryDate": "",
+                    "id": "517692bb-7841-4e80-a4cf-b05a61e5d5c3"
+                },
+                {
+                    "userId": "user_jenni",
+                    "medName": "Metformin",
+                    "quantity": 123,
+                    "expiryDate": "",
+                    "id": "d683870b-75ab-4e05-8050-c0e0f478b682"
+                }
+            ],
+            "ring_patient": false,
+            "history": [
+                {
+                    "userId": "user_jenni",
+                    "medicineId": "m2",
+                    "medicineName": "Metformin",
+                    "status": "missed",
+                    "timestamp": "2026-02-11 08:00"
+                }
+            ],
+            "ring_active_now": false,
+            "pending_sms_alert": ""
+        },
+        "user_rocky": {
+            "id": "user_rocky",
+            "name": "Rocky",
+            "pin": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+            "profile": {
+                "name": "Rocky",
+                "dob": "1975-02-14",
+                "bloodType": "B+",
+                "height": "180cm",
+                "weight": "85kg",
+                "allergies": "Dust",
+                "conditions": "Hypertension",
+                "doctor": "Dr. Lee",
+                "insurance": "Cigna",
+                "emergencyContact": "Wife (555-0300)",
+                "reason": "BP Medication Tracking",
+                "needsCaregiver": "Yes",
+                "streak": 0,
+                "coins": 70,
+                "userId": "user_rocky",
+                "avatar": "https://ui-avatars.com/api/?name=Rocky&background=random",
+                "bgImage": ""
+            },
+            "appointments": [],
+            "ring_patient": false,
+            "medicines": [
+                {
+                    "userId": "user_rocky",
+                    "name": "Dolo 650",
+                    "dosage": "1",
+                    "time": "21:51",
+                    "frequency": "Daily",
+                    "notes": "Water",
+                    "id": "f556cf7c-5ec0-4185-b88c-c881fd3f62e5",
+                    "isActive": true
+                },
+                {
+                    "userId": "user_rocky",
+                    "name": "Aspirin",
+                    "dosage": "1",
+                    "time": "22:04",
+                    "frequency": "Daily",
+                    "notes": "1",
+                    "id": "2a8cd8e8-9db1-4b9b-ad3d-24759ecdded4",
+                    "isActive": true
+                },
+                {
+                    "userId": "user_rocky",
+                    "name": "rt",
+                    "dosage": "ww",
+                    "time": "01:28",
+                    "frequency": "Daily",
+                    "notes": "",
+                    "id": "b94647df-6c97-4090-a206-196bc372684b",
+                    "isActive": true
+                },
+                {
+                    "userId": "user_rocky",
+                    "name": "M",
+                    "dosage": "1",
+                    "time": "23:17",
+                    "frequency": "Daily",
+                    "notes": "",
+                    "id": "a1cf3776-8f34-448a-9b2d-a0e006ae7cfc",
+                    "isActive": true
+                },
+                {
+                    "userId": "user_rocky",
+                    "name": "12",
+                    "dosage": "1",
+                    "time": "23:23",
+                    "frequency": "Daily",
+                    "notes": "",
+                    "id": "7c86d9dd-d9d6-436e-8d8b-c99bb970bfaa",
+                    "isActive": true
+                },
+                {
+                    "userId": "user_rocky",
+                    "name": "2",
+                    "dosage": "",
+                    "time": "23:41",
+                    "frequency": "Daily",
+                    "notes": "",
+                    "id": "c3a3f7c0-49a4-4feb-ab06-9ed0e2dc7404",
+                    "isActive": true
+                },
+                {
+                    "userId": "user_rocky",
+                    "name": "Amlodipine ",
+                    "dosage": "milk",
+                    "time": "23:42",
+                    "frequency": "Daily",
+                    "notes": "",
+                    "id": "add9cb2a-c684-4e8e-aab2-616e5bc9e974",
+                    "isActive": true
+                }
+            ],
+            "inventory": [
+                {
+                    "id": "i3",
+                    "medName": "Amlodipine",
+                    "quantity": 14,
+                    "expiryDate": "2027-01-10"
+                },
+                {
+                    "userId": "user_rocky",
+                    "medName": "RT",
+                    "quantity": 3,
+                    "expiryDate": "2026-02-20",
+                    "id": "654fe51b-e000-478c-bde5-1a4223557992"
+                },
+                {
+                    "userId": "user_rocky",
+                    "medName": "RM",
+                    "quantity": 3,
+                    "expiryDate": "2026-02-14",
+                    "id": "618687d9-a60e-4578-b80f-2918bda8df43"
+                },
+                {
+                    "userId": "user_rocky",
+                    "medName": "RJ",
+                    "quantity": 11,
+                    "expiryDate": "",
+                    "id": "f27d1cc8-81da-4884-ad86-5a7dc2a697e2"
+                },
+                {
+                    "userId": "user_rocky",
+                    "medName": "Dolo 650",
+                    "quantity": 11,
+                    "expiryDate": "",
+                    "id": "15d165eb-c2b9-4d62-95b6-cac1188db52d"
+                },
+                {
+                    "userId": "user_rocky",
+                    "medName": "Aspirin",
+                    "quantity": 20,
+                    "expiryDate": "",
+                    "id": "e76eedad-90ba-4505-83dc-d46e2a744933"
+                }
+            ],
+            "history": [
+                {
+                    "userId": "user_rocky",
+                    "medicineId": "m3",
+                    "medicineName": "Amlodipine",
+                    "status": "missed",
+                    "timestamp": "2026-02-11 09:00"
+                },
+                {
+                    "userId": "user_rocky",
+                    "medicineId": "5efd1e76-981a-4d9f-8df7-ddb4aebe4cf2",
+                    "medicineName": "RT",
+                    "status": "taken",
+                    "timestamp": "2026-02-11 21:17"
+                },
+                {
+                    "userId": "user_rocky",
+                    "medicineId": "ef84d22b-fdca-458b-aab3-2cdd4a16c98a",
+                    "medicineName": "RM",
+                    "status": "taken",
+                    "timestamp": "2026-02-11 21:18"
+                },
+                {
+                    "userId": "user_rocky",
+                    "medicineId": "86c48783-47f8-49c6-a1fd-a6ae421ecd9e",
+                    "medicineName": "RJ",
+                    "status": "missed",
+                    "timestamp": "2026-02-11 21:33"
+                },
+                {
+                    "userId": "user_rocky",
+                    "medicineId": "f556cf7c-5ec0-4185-b88c-c881fd3f62e5",
+                    "medicineName": "Dolo 650",
+                    "status": "taken",
+                    "timestamp": "2026-02-11 21:51"
+                },
+                {
+                    "userId": "user_rocky",
+                    "medicineId": "2a8cd8e8-9db1-4b9b-ad3d-24759ecdded4",
+                    "medicineName": "Aspirin",
+                    "status": "missed",
+                    "timestamp": "2026-02-11 22:04"
+                },
+                {
+                    "userId": "user_rocky",
+                    "medicineId": "b94647df-6c97-4090-a206-196bc372684b",
+                    "medicineName": "rt",
+                    "status": "taken",
+                    "dosageString": "ww",
+                    "timestamp": "2026-03-02 01:28"
+                },
+                {
+                    "userId": "user_rocky",
+                    "medicineId": "a1cf3776-8f34-448a-9b2d-a0e006ae7cfc",
+                    "medicineName": "M",
+                    "status": "taken",
+                    "dosageString": "1",
+                    "timestamp": "2026-03-08 23:17"
+                },
+                {
+                    "userId": "user_rocky",
+                    "medicineId": "b94647df-6c97-4090-a206-196bc372684b",
+                    "medicineName": "rt",
+                    "status": "taken",
+                    "dosageString": "ww",
+                    "timestamp": "2026-03-08 23:21"
+                },
+                {
+                    "userId": "user_rocky",
+                    "medicineId": "2a8cd8e8-9db1-4b9b-ad3d-24759ecdded4",
+                    "medicineName": "Aspirin",
+                    "status": "missed",
+                    "dosageString": "1",
+                    "timestamp": "2026-03-08 23:21"
+                },
+                {
+                    "userId": "user_rocky",
+                    "medicineId": "f556cf7c-5ec0-4185-b88c-c881fd3f62e5",
+                    "medicineName": "Dolo 650",
+                    "status": "missed",
+                    "dosageString": "1",
+                    "timestamp": "2026-03-08 23:21"
+                },
+                {
+                    "userId": "user_rocky",
+                    "medicineId": "86c48783-47f8-49c6-a1fd-a6ae421ecd9e",
+                    "medicineName": "RJ",
+                    "status": "missed",
+                    "dosageString": "!",
+                    "timestamp": "2026-03-08 23:21"
+                },
+                {
+                    "userId": "user_rocky",
+                    "medicineId": "ef84d22b-fdca-458b-aab3-2cdd4a16c98a",
+                    "medicineName": "RM",
+                    "status": "missed",
+                    "dosageString": "1",
+                    "timestamp": "2026-03-08 23:21"
+                },
+                {
+                    "userId": "user_rocky",
+                    "medicineId": "5efd1e76-981a-4d9f-8df7-ddb4aebe4cf2",
+                    "medicineName": "RT",
+                    "status": "missed",
+                    "dosageString": "!",
+                    "timestamp": "2026-03-08 23:22"
+                },
+                {
+                    "userId": "user_rocky",
+                    "medicineId": "m3",
+                    "medicineName": "Amlodipine",
+                    "status": "missed",
+                    "dosageString": "1 pill",
+                    "timestamp": "2026-03-08 23:22"
+                },
+                {
+                    "userId": "user_rocky",
+                    "medicineId": "7c86d9dd-d9d6-436e-8d8b-c99bb970bfaa",
+                    "medicineName": "12",
+                    "status": "taken",
+                    "dosageString": "1",
+                    "timestamp": "2026-03-08 23:23"
+                },
+                {
+                    "userId": "user_rocky",
+                    "medicineId": "c3a3f7c0-49a4-4feb-ab06-9ed0e2dc7404",
+                    "medicineName": "2",
+                    "status": "taken",
+                    "dosageString": "",
+                    "timestamp": "2026-03-08 23:41"
+                },
+                {
+                    "userId": "user_rocky",
+                    "medicineId": "add9cb2a-c684-4e8e-aab2-616e5bc9e974",
+                    "medicineName": "Amlodipine ",
+                    "status": "taken",
+                    "dosageString": "milk",
+                    "timestamp": "2026-03-08 23:41"
+                },
+                {
+                    "userId": "user_rocky",
+                    "medicineId": "54812f35-5ba7-4ed4-8d0f-6cec1b89293d",
+                    "medicineName": "",
+                    "status": "taken",
+                    "dosageString": "",
+                    "timestamp": "2026-03-09 00:03"
+                },
+                {
+                    "userId": "user_rocky",
+                    "medicineId": "54812f35-5ba7-4ed4-8d0f-6cec1b89293d",
+                    "medicineName": "",
+                    "status": "missed",
+                    "dosageString": "",
+                    "timestamp": "2026-03-09 00:03"
+                },
+                {
+                    "userId": "user_rocky",
+                    "medicineId": "54812f35-5ba7-4ed4-8d0f-6cec1b89293d",
+                    "medicineName": "",
+                    "status": "missed",
+                    "dosageString": "",
+                    "timestamp": "2026-03-09 00:04"
+                },
+                {
+                    "userId": "user_rocky",
+                    "medicineId": "54812f35-5ba7-4ed4-8d0f-6cec1b89293d",
+                    "medicineName": "",
+                    "status": "taken",
+                    "dosageString": "",
+                    "timestamp": "2026-03-09 00:04"
+                },
+                {
+                    "userId": "user_rocky",
+                    "medicineId": "54812f35-5ba7-4ed4-8d0f-6cec1b89293d",
+                    "medicineName": "",
+                    "status": "missed",
+                    "dosageString": "",
+                    "timestamp": "2026-03-09 00:04"
+                }
+            ],
+            "ring_active_now": false,
+            "pending_sms_alert": "",
+            "sms_alert": ""
+        },
+        "user_rosy": {
+            "id": "user_rosy",
+            "name": "Rosy",
+            "pin": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+            "profile": {
+                "name": "Rosy",
+                "dob": "1960-08-30",
+                "bloodType": "AB+",
+                "height": "155cm",
+                "weight": "60kg",
+                "allergies": "Sulfa",
+                "conditions": "Arthritis",
+                "doctor": "Dr. Patel",
+                "insurance": "Medicare",
+                "emergencyContact": "Son (555-0400)",
+                "reason": "Pain Management",
+                "needsCaregiver": "Yes",
+                "streak": 2
+            },
+            "appointments": [],
+            "ring_patient": true,
+            "medicines": [
+                {
+                    "id": "m4",
+                    "name": "Ibuprofen",
+                    "dosage": "400mg",
+                    "time": "14:00",
+                    "notes": "After lunch",
+                    "isActive": true
+                }
+            ],
+            "inventory": [],
+            "history": [
+                {
+                    "userId": "user_rosy",
+                    "medicineId": "m4",
+                    "medicineName": "Ibuprofen",
+                    "status": "taken",
+                    "timestamp": "2026-02-11 14:05"
+                }
+            ]
+        },
+        "user_joe": {
+            "id": "user_joe",
+            "name": "Joe",
+            "pin": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+            "profile": {
+                "name": "Joe",
+                "dob": "2000-01-01",
+                "bloodType": "O-",
+                "height": "178cm",
+                "weight": "75kg",
+                "allergies": "None",
+                "conditions": "Vitamin D Deficiency",
+                "doctor": "Dr. Clark",
+                "insurance": "None",
+                "emergencyContact": "Mom (555-0500)",
+                "reason": "Supplement Reminder",
+                "needsCaregiver": "No",
+                "streak": 0
+            },
+            "appointments": [],
+            "ring_patient": false,
+            "medicines": [
+                {
+                    "id": "m5",
+                    "name": "Vitamin D3",
+                    "dosage": "2 pills",
+                    "time": "08:00",
+                    "notes": "Daily",
+                    "isActive": true
+                }
+            ],
+            "inventory": [
+                {
+                    "id": "i5",
+                    "medName": "Vitamin D3",
+                    "quantity": 60,
+                    "expiryDate": "2026-12-10"
+                }
+            ],
+            "history": [],
+            "ring_active_now": false,
+            "pending_sms_alert": ""
+        }
+    },
+    "doctors": {
+        "doc_1": {
+            "name": "Dr. Smith",
+            "pin": "9af15b336e6a9619928537df30b2e6a2376569fcf9d7e773eccede65606529a0"
+        }
+    }
+}
